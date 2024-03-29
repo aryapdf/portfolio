@@ -17,6 +17,14 @@ export const projectsData = [
     view: "https://github.com/aryapdf/project-buku-resepku",
   },
   {
+    id: 203,
+
+    title: "Lakonono",
+    subtitle: "A simple to-do apps for your daily companion",
+    category: "app",
+    view: "https://marvelous-biscuit-c361ee.netlify.app/",
+  },
+  {
     id: 302,
 
     title: "Catpuccin Website Design",
