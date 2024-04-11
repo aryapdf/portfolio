@@ -8,13 +8,30 @@ export const projectsData = [
     view: "https://shopper-ecommerce-frontend-9uzo52cgy-arya-pradanas-projects.vercel.app/",
   },
   {
-    id: 101,
+    id: 104,
 
     title: "Buku Resepku Catalog",
     subtitle:
       "Buku Resepku is a catalog website that presents various food recipes.",
     category: "web",
     view: "https://github.com/aryapdf/project-buku-resepku",
+  },
+  {
+    id: 205,
+
+    title: "WeathApp",
+    subtitle:
+      "Curious about weather around you? Use this app to throw your curiosity away",
+    category: "app",
+    view: "https://github.com/aryapdf/weathapp",
+  },
+  {
+    id: 204,
+
+    title: "ET(Expense Tracker)",
+    subtitle: "An app that track your balance, income and expenses",
+    category: "app",
+    view: "https://github.com/aryapdf/expense-tracker",
   },
   {
     id: 203,
@@ -33,11 +50,11 @@ export const projectsData = [
     view: "https://aryapdf.github.io/portfolio-website-ichabagus-demo/",
   },
   {
-    id: 202,
+    id: 101,
 
     title: "Simple Movie Catalogue",
     subtitle: "A website that show catalogue of movies",
-    category: "app",
+    category: "web",
     view: "https://marvelous-biscuit-c361ee.netlify.app/",
   },
   {

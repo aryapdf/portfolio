@@ -1,9 +1,15 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import { motion as m } from "framer-motion";
 
 const Social = () => {
   return (
-    <div className="home__social">
+    <m.div
+      className="home__social"
+      initial={{ opacity: 0, x: -150 }}
+      animate={{ opacity: 2, x: 0 }}
+      transition={{ duration: 2, ease: "easeOut", delay: 1 }}
+    >
       <a
         href="https://www.instagram.com/_aryapdf"
         className="home__social-icon"
@@ -27,7 +33,7 @@ const Social = () => {
       >
         <i className="uil uil-linkedin-alt"></i>
       </a>
-    </div>
+    </m.div>
   );
 };
 

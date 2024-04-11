@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./Header.css";
+
 import viyo from "../../assets/viyo-latte.png";
+
+import {motion as m} from 'framer-motion'
 
 const Header = () => {
   /* ========= Toggle Menu ========= */
@@ -18,8 +21,10 @@ const Header = () => {
   const [activeNav, setActiveNav] = useState("#home");
 
   return (
-    <header className="header" id="header">
-      <nav className="nav container">
+    <header className="header" id="header" >
+      <m.nav className="nav container"     initial={{ opacity: 0, x:0 }}
+    animate={{ opacity: 1, x: 0}}
+    transition={{ duration: 2, ease: 'easeIn', delay: 1 }}>
         <a href="index.html" className="nav__logo">
           <img src={viyo} alt="" />
         </a>
@@ -114,7 +119,7 @@ const Header = () => {
         <div className="nav__toggle" onClick={() => showMenu(!menu)}>
           <i className="uil uil-apps"></i>
         </div>
-      </nav>
+      </m.nav>
     </header>
   );
 };

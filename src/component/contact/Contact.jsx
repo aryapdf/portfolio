@@ -167,7 +167,7 @@ const Contact = () => {
               value="Send"
             >
               <p>
-                Send Message <i class="uil uil-message"></i>
+                Send Message <i className="uil uil-message"></i>
               </p>
             </button>
           </form>
