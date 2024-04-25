@@ -17,6 +17,14 @@ export const projectsData = [
     view: "https://github.com/aryapdf/project-buku-resepku",
   },
   {
+    id: 203,
+
+    title: "Lakonono",
+    subtitle: "A simple to-do apps for your daily companion",
+    category: "app",
+    view: "https://lakonono.netlify.app/",
+  },
+  {
     id: 205,
 
     title: "WeathApp",
@@ -33,21 +41,14 @@ export const projectsData = [
     category: "app",
     view: "https://github.com/aryapdf/expense-tracker",
   },
-  {
-    id: 203,
 
-    title: "Lakonono",
-    subtitle: "A simple to-do apps for your daily companion",
-    category: "app",
-    view: "https://marvelous-biscuit-c361ee.netlify.app/",
-  },
   {
     id: 302,
 
     title: "Catpuccin Website Design",
     subtitle: "You like Catpuccin? Me too! Here for your portfolio reference",
     category: "design",
-    view: "https://aryapdf.github.io/portfolio-website-ichabagus-demo/",
+    view: "https://catpporto.netlify.app/",
   },
   {
     id: 101,
